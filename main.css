@@ -1,0 +1,123 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     width: 100vw;
+     min-height: 100vh;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: #EEEEEE;
+ }
+
+ .container {
+     text-align: center;
+     margin: 60px auto;
+     max-width: 60%;
+     height: auto;
+ }
+
+ .new-task-input {
+     padding: 1rem;
+     border-radius: 1rem;
+     margin-right: 1rem;
+     border-bottom: 1px solid #B2B2B2;
+ }
+
+ #new-task-input {
+     width: 500px;
+     padding: 7px 20px 6px;
+     margin: 30px 15px 36px 10px;
+     color: white;
+     border-radius: 1px #B2B2B2;
+ }
+
+ #new-task-submit {
+     width: 200px;
+     padding: 10px;
+     background-color: #5DA7DA;
+     color: white;
+     border: 2px;
+     border-radius: 3px;
+ }
+
+ .task-heading {
+     text-align: start;
+     width: 94%;
+     font-size: 17px;
+     border: 1px solid #B2B2B2;
+     font-weight: 600;
+     padding: 13px 0px 13px 35px;
+     margin: 0px 0px 0px 30px;
+     /* border-radius: #B2B2B2; */
+ }
+
+ .todoinner ul li {
+     padding: 7px 0px 8px 0px;
+     width: 70%;
+ }
+
+ ul li {
+     list-style-type: none;
+     text-align: start;
+     padding: 27px 0px 19px 35px;
+     margin-left: 30px;
+     border-left: 1px solid #B2B2B2;
+     border-right: 1px solid #B2B2B2;
+     width: 94%;
+ }
+
+ hr {
+     width: 86%;
+     margin: 0 auto;
+     color: #5DA7DA;
+ }
+
+ .fa-square:before {
+     color: #E9E8E8;
+     border: 1px solid #7B8FA1;
+     border-radius: 2px;
+     margin: 4px;
+     font-size: 15px;
+ }
+
+ .todo-bottom-line {
+     border-bottom: 1px solid #B2B2B2;
+ }
+
+ square:before,
+ .fa-square-minus:before {
+     content: "\f146";
+     font-size: 20px;
+     background-color: #FFB9B9;
+     color: #FFB9B9;
+     border: 1px solid #FF8787;
+     border-radius: 3px;
+     margin: 4px;
+ }
+
+ p {
+     display: inline;
+     font-size: 14px;
+     color: #1B2430;
+     font-weight: 500;
+ }
+
+ .fa-trash:before {
+     content: "\f1f8";
+     border: 1px solid grey;
+     padding: 9px 19px 8px 13px;
+     border-radius: 3px;
+     color: #D61355;
+     background-color: #E9E8E8;
+     text-align: end;
+     position: absolute;
+     top: 20px;
+     right: 40px;
+ }
+
+.todoList li{
+    position: relative;
+}
+

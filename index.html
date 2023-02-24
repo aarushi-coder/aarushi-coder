@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Todo in js</title>
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="inputField">
+                <input type="text" id="new-task-input" placeholder="What needs to be done?">
+
+                <input type="submit" id="new-task-submit" value="Add">
+            </div>
+        </header>
+
+        <main>
+            <section class="task-list">
+
+                <div class="task-heading">
+                    <h4>Todo List</h4>
+                </div>
+
+                <ul class="todoList">
+                    <li id="todoinner"> <span id="todo-font"><i class="fa fa-square"></i></span> <span><i class="fa fa-square-minus"></i></span> <p> Test React Ant Design Todo List </p><span><i class="fa fa-trash"></i></span></li>
+                    <hr size="5">
+                    <li id="todoinner"> <span><i class="fa fa-square"></i></span> <span><i class="fa fa-square-minus"></i></span>  <p>Write About React And Ant Design </p><span><i class="fa fa-trash"></i></span></li>
+                    <hr size="5">
+                    <li id="todoinner"> <span><i class="fa fa-square"></i></span> <span><i class="fa fa-square-minus"></i></span> <p> <strike>Finalize Presentation</strike> </p> <span><i class="fa fa-trash"></i></span></li>
+                    <hr size="5">
+                    <li class="todo-bottom-line" id="todoinner"> <span><i class="fa fa-square"></i></span> <span><i class="fa fa-square-minus"></i></span>  <p>Book Flights to Ireland </p><span><i class="fa fa-trash"></i></span></li>
+                </ul>
+                
+            </section>
+        </main>
+    </section>
+    
+
+    <script src="index.js"></script>
+</body>
+
+</html>
